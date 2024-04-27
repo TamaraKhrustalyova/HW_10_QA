@@ -1,0 +1,88 @@
+    1  ls -l
+    2  git config --global user.name TamaraKhrustalyova
+    3  git config --global user.email tamara.khrustalyova@gmail.com
+    4  git config --get user.name
+    5  git config --get user.email
+    6  ls
+    7  ls -l
+    8  git clone https://github.com/TamaraKhrustalyova/HW_10_QA.git
+    9  ls -l
+   10  cd HW_10_QA/
+   11  ls -l
+   12  ls -la
+   13  git status
+   14  git log
+   15  git checkout -b develop
+   16  touch develop_test.txt
+   17  ls -l
+   18  git status
+   19  git add .
+   20  git status
+   21  git commit -m 'added to develop'
+   22  git log
+   23  nano develop_test.txt 
+   24  cat develop_test.txt 
+   25  git status
+   26  git add .
+   27  git commit -a 'develop_test modified'
+   28  git commit -m 'develop_test modified
+   29  git commit -m 'develop_test modified'
+   30  git status
+   31  git commit -m 'develop_test modified'
+   32  git log
+   33  git status
+   34  git checkout main
+   35  git checkout develop
+   36  git push origin develop
+   37  git checkout main
+   38  git merge develop
+   39  git log
+   40  touch main_test.txt
+   41  git log
+   42  git add .
+   43  git commit -m 'added test to main'
+   44  touch text_ignore.txt
+   45  ls -l
+   46  nano .gitignore
+   47  git status
+   48  git add .
+   49  git commit -m 'gitignore modified'
+   50  git push
+   51  git push origin
+   52  git pull
+   53  cd c
+   54  cd Documents/
+   55  cd GitHub/
+   56  cd goit_qa
+   57  ls 
+   58  cd qa
+   59  checkout develop
+   60  cd ..
+   61  cd ..
+   62  cd hw_10_qa
+   63  cd qa_practice/
+   64  cd HW_10_QA/
+   65  checkout develop
+   66  git checkout develop
+   67  ls -l
+   68  rm text_ignore.txt
+   69  ls -l
+   70  cat .gitignore
+   71  nano .gitignore 
+   72  cat .gitignore 
+   73  git checkout main
+   74  git add .
+   75  git commit -m 'ddeliting file'
+   76  git checkout main
+   77  touch text_ignore.txt
+   78  git add .
+   79  git commit -m 'new file on main'
+   80  git push
+   81  git status
+   82  git log
+   83  cd Do
+   84  cd Documents/
+   85  cd GitHub/
+   86  cd qa_practice/
+   87  cd HW_10_QA/
+   88  history>command_list.csv
